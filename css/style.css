@@ -5,6 +5,7 @@
 body {
   background-color: white;
   width: 375px;
+  height: 667px;
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-style: normal;
@@ -13,7 +14,7 @@ body {
 }
 
 .container {
-  margin-top: 25px;
+  max-height: 667px;
 }
 
 .header {
@@ -23,10 +24,6 @@ body {
 
 .header, h1, .leftarrow, .searchicon {
   display: inline-block;
-}
-
-.nearby, .stop {
-  margin: 10 auto;
 }
 
 .stop {
@@ -52,10 +49,25 @@ body {
 .gps {
   background-image: url(./../images/BusyBusMap.png);
   background-size: 375px;
+  height: 350px;
+}
+
+.pin, .logo, .refresh {
+  width: 10%;
 }
 
 .map, .statusbar {
   width: 375px;
+}
+
+.schedule {
+  height: 250px;
+  overflow: scroll;
+}
+
+.tabs {
+  height: 30px;
+  overflow: hidden;
 }
 
 .info, .calendar, .heart, .walk {
