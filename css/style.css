@@ -1,0 +1,47 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  width: 375px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  color: #355881;
+}
+
+.container {
+  margin-top: 25px;
+}
+
+.header {
+  width: 375px;
+  background-color: white;
+}
+
+.header, h1, .leftarrow, .searchicon {
+  display: inline-block;
+}
+
+.leftarrow {
+  width: 4%;
+}
+
+.searchicon {
+  width: 6%;
+}
+
+.gps {
+  background-image: url(./../images/BusyBusMap.png);
+  background-size: 375px;
+}
+
+.map, .statusbar {
+  width: 375px;
+}
+
+.info, .calendar, .heart, .walk {
+  width: 5%;
+}
