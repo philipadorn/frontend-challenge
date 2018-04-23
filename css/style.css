@@ -103,38 +103,29 @@ body {
 
 .state {
   float: left;
-  margin: 20px;
-}
-
-.schedule, .group {
-  border-bottom: 1px solid #979797;
+  margin: 27px;
 }
 
 .refresh {
-  margin: 20px 0 0 0;
+  margin: 27px 0 0 0;
   width: 21px;
 }
 
 .walk {
   float: left;
   width: 12px;
-  margin-top: 19px;
+  margin-top: 18px;
 }
 
 .walkroute {
-  float: right;
-  margin-top: 23px;
-  margin-right: 18px;
+  margin-left: 35px;
+  font-size: 11px;
 }
 
 .group:after {
   content: "";
   display: table;
   clear: both;
-}
-
-.group {
-
 }
 
 .float-sm1, .float-sm2, .float-md, .float-lg {
@@ -149,22 +140,28 @@ body {
 .float-sm1 {
   width: 25%;
   float: left;
-  border: 2px solid black;
+  border: 2px solid #0B3667;
   border-radius: 15px;
   margin:15px 0 15px 15px;
   text-align: center;
 }
 
 .float-md {
-  width: 50%;
+  width: 45%;
   float:left;
   margin: 15px;
   font-size: 12px;
 }
 
 .float-sm2 {
-  width: 20%
+  width: 10%;
   float: left;
+  margin-top: 9px;
+  margin-right: 11px;
+}
+
+.mins {
+  margin: auto;
 }
 
 .tabs {
@@ -173,7 +170,7 @@ body {
   bottom: 0;
   background-color: white;
   width: 100%;
-  border: 1px solid #979797;
+  border-top: 1px solid #979797;
 }
 
 .steps {
@@ -181,7 +178,7 @@ body {
   padding: 0;
   overflow: scroll;
   list-style-type: none;
-  height: 156px;
+  height: 150px;
 }
 
 ::-webkit-scrollbar {
@@ -197,7 +194,7 @@ body {
 }
 
 .info, .calendar {
-  width: 22px
+  width: 22px;
   ;
 }
 
