@@ -66,16 +66,31 @@ body {
 
 .logo {
   position: absolute;
-  left: 180px;
-  top: 202px;
+  left: 170px;
+  top: 203px;
   width: 44px;
 }
 
-.rectangle {
-  width: 199px;
+.rounded-rect {
+  background: #F9ADA4;
+  border-radius: 27px;
+  padding: 15px;
   position: absolute;
-  left: 170px;
-  top: 190px;
+  width: 200px;
+  top: 192px;
+  right: 10px;
+}
+
+.text {
+  float: right;
+  margin-right: 6px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.text-time {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .map, .statusbar {
@@ -119,7 +134,7 @@ body {
 }
 
 .group {
-  margin-left: 30px 0 30px 0;
+
 }
 
 .float-sm1, .float-sm2, .float-md, .float-lg {
@@ -136,19 +151,21 @@ body {
   float: left;
   border: 2px solid black;
   border-radius: 15px;
-  margin: 10px 0 10px 15px;
+  margin:15px 0 15px 15px;
   text-align: center;
 }
 
 .float-md {
   width: 50%;
   float:left;
-  margin: 10px;
+  margin: 15px;
+  font-size: 12px;
 }
 
 .float-sm2 {
   width: 20%
   float: left;
+  margin: 
 }
 
 .tabs {
@@ -165,7 +182,11 @@ body {
   padding: 0;
   overflow: scroll;
   list-style-type: none;
-  height: 200px;
+  height: 156px;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .steps li > span:nth-child(1) {
@@ -174,7 +195,6 @@ body {
 
 .steps li > span:nth-child(3) span {
   font-size: 200%;
-  text-align: center;
 }
 
 .info, .calendar {
