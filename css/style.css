@@ -66,16 +66,16 @@ body {
 
 .logo {
   position: absolute;
-  left: 200px;
-  top: 200px;
+  left: 180px;
+  top: 202px;
   width: 44px;
 }
 
-svg {
+.rectangle {
+  width: 199px;
   position: absolute;
-  left: 200px;
-  top: 184px;
-  border-radius: 50px;
+  left: 170px;
+  top: 190px;
 }
 
 .map, .statusbar {
@@ -103,12 +103,12 @@ svg {
 .walk {
   float: left;
   width: 12px;
-  margin-top: 18px;
+  margin-top: 19px;
 }
 
 .walkroute {
   float: right;
-  margin-top: 22px;
+  margin-top: 23px;
   margin-right: 18px;
 }
 
@@ -174,6 +174,7 @@ svg {
 
 .steps li > span:nth-child(3) span {
   font-size: 200%;
+  text-align: center;
 }
 
 .info, .calendar {
