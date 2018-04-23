@@ -58,8 +58,18 @@ body {
   width: 10%;
 }
 
+.pin {
+  position: absolute;
+  left: 200px;
+  top: 300px;
+}
+
 .map, .statusbar {
   width: 375px;
+}
+
+.statusbar {
+  margin-top: 3px;
 }
 
 .schedule {
@@ -92,28 +102,37 @@ body {
   clear: both;
 }
 
-.float-sm, .float-md {
-  padding: 10px;
-  border: 1px solid black;
+.float-sm1, .float-sm2, .float-md {
+  padding: 3px;
 }
 
-.float-sm {
+.float-sm1 {
   width: 20%;
   float: left;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 10px 0 10px 0;
+  text-align: center;
 }
 
 .float-md {
   width: 60%;
   float:left;
+  margin: 10px;
+}
+
+.float-sm2 {
+  width: 20%
+  float: left;
 }
 
 .tabs {
-  overflow: hidden;
   position: absolute;
-  height: 50px;
+  height: 58px;
   bottom: 0;
   background-color: white;
   width: 100%;
+  border: 1px solid #979797;
 }
 
 .steps {
@@ -143,9 +162,18 @@ body {
 .cal, .information, .scute {
   float: left;
   text-align: center;
-  font-size: 11.5px;
+  font-size: 10px;
+}
+
+.cal {
+    margin: 5px 0px 0 20px;
+}
+
+.information {
+  margin: 5px 0px 0 90px;
 }
 
 .scute {
   float: right;
+  margin: 7px 20px 0 0;
 }
