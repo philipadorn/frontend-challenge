@@ -64,6 +64,20 @@ body {
   top: 300px;
 }
 
+.logo {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  width: 44px;
+}
+
+svg {
+  position: absolute;
+  left: 200px;
+  top: 184px;
+  border-radius: 50px;
+}
+
 .map, .statusbar {
   width: 375px;
 }
@@ -72,14 +86,13 @@ body {
   margin-top: 3px;
 }
 
-.schedule {
-  height: 225px;
-  overflow: scroll;
-}
-
 .state {
   float: left;
   margin: 20px;
+}
+
+.schedule, .group {
+  border-bottom: 1px solid #979797;
 }
 
 .refresh {
@@ -90,24 +103,32 @@ body {
 .walk {
   float: left;
   width: 12px;
+  margin-top: 18px;
 }
 
 .walkroute {
   float: right;
+  margin-top: 22px;
+  margin-right: 18px;
 }
 
-.group:before {
+.group:after {
   content: "";
   display: table;
   clear: both;
 }
 
 .group {
-  margin: 30px 0 30px 0;
+  margin-left: 30px 0 30px 0;
 }
 
-.float-sm1, .float-sm2, .float-md {
+.float-sm1, .float-sm2, .float-md, .float-lg {
   padding: 3px;
+}
+
+.float-lg {
+  width: 80%;
+  float: left;
 }
 
 .float-sm1 {
@@ -126,7 +147,7 @@ body {
 }
 
 .float-sm2 {
-  width: 25%
+  width: 20%
   float: left;
 }
 
@@ -140,9 +161,11 @@ body {
 }
 
 .steps {
-  list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: scroll;
+  list-style-type: none;
+  height: 200px;
 }
 
 .steps li > span:nth-child(1) {
@@ -152,7 +175,6 @@ body {
 .steps li > span:nth-child(3) span {
   font-size: 200%;
 }
-
 
 .info, .calendar {
   width: 22px
