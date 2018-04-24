@@ -104,42 +104,14 @@ body {
   width: 375px;
 }
 
+
 .statusbar {
   margin-top: 3px;
 }
 
-.state {
-  float: left;
-  margin-top: 25px;
-  margin-left: 20px;
-  margin-bottom:15px;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.refresh {
-  margin-top: 23px;
-  margin-left: 15px;
-  width: 21px;
-}
-
-.walk {
-  float: left;
-  width: 12px;
-  margin-top: 27px;
-  margin-left: 38px;
-}
-
-.walkroute {
-  margin-top: 30px;
-  margin-right: 20px;
-  font-size: 12px;
-  float: right;
-}
-
-hr.style1{
+hr{
 	border-top: 1px solid #979797;
-  width: 80%;
+  width:90%;
 }
 
 .group:after {
@@ -169,14 +141,18 @@ hr.style1{
 .float-md {
   width: 45%;
   float:left;
-  margin: 15px;
+  margin-top: 7px;
+  margin-left: 12px;
   font-size: 12px;
+  line-height: 1.5;
 }
 
 .float-sm2 {
   width: 10%;
   float: left;
-  margin: 6px;
+  margin-top: 4px;
+  margin-left: 18px;
+  line-height: 1.2;
 }
 
 .mins {
@@ -197,16 +173,20 @@ hr.style1{
   padding: 0;
   overflow: scroll;
   list-style-type: none;
-  height: 150px;
+  height: 220px;
 }
 
+.group {
+margin-top: 10px;
+
+}
 ::-webkit-scrollbar {
   display: none;
 }
 
 
 .steps li span:nth-child(1) {
-  font-size: 200%;
+  font-size: 140%;
   font-weight: 600;
 }
 
@@ -215,8 +195,8 @@ hr.style1{
 }
 
 .steps li span:nth-child(3) > span {
-  font-size: 250%;
-  font-weight: 600;
+  font-size: 200%;
+  font-weight: 580;
 }
 
 .info, .calendar {
@@ -236,13 +216,16 @@ hr.style1{
 
 .cal {
     margin: 10px 0px 0 20px;
+    line-height: 1.5;
 }
 
 .information {
   margin: 10px 0px 0 105px;
+  line-height: 1.5;
 }
 
 .scute {
   float: right;
   margin: 12px 20px 0 0;
+  line-height: 1.5;
 }
