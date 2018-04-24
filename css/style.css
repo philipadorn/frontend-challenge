@@ -103,23 +103,36 @@ body {
 
 .state {
   float: left;
-  margin: 27px;
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom:15px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .refresh {
-  margin: 27px 0 0 0;
+  margin-top: 23px;
+  margin-left: 15px;
   width: 21px;
 }
 
 .walk {
   float: left;
   width: 12px;
-  margin-top: 18px;
+  margin-top: 27px;
+  margin-left: 38px;
 }
 
 .walkroute {
-  margin-left: 35px;
-  font-size: 11px;
+  margin-top: 30px;
+  margin-right: 20px;
+  font-size: 12px;
+  float: right;
+}
+
+hr.style1{
+	border-top: 1px solid #979797;
+  width: 80%;
 }
 
 .group:after {
@@ -133,7 +146,7 @@ body {
 }
 
 .float-lg {
-  width: 80%;
+  width: 70%;
   float: left;
 }
 
@@ -141,7 +154,7 @@ body {
   width: 25%;
   float: left;
   border: 2px solid #0B3667;
-  border-radius: 15px;
+  border-radius: 8px;
   margin:15px 0 15px 15px;
   text-align: center;
 }
@@ -156,12 +169,11 @@ body {
 .float-sm2 {
   width: 10%;
   float: left;
-  margin-top: 9px;
-  margin-right: 11px;
+  margin: 6px;
 }
 
 .mins {
-  margin: auto;
+  margin-left: 6px;
 }
 
 .tabs {
@@ -185,17 +197,23 @@ body {
   display: none;
 }
 
-.steps li > span:nth-child(1) {
+
+.steps li span:nth-child(1) {
   font-size: 200%;
+  font-weight: 600;
 }
 
-.steps li > span:nth-child(3) span {
-  font-size: 200%;
+.steps li span:nth-child(3) {
+  text-align: center;
+}
+
+.steps li span:nth-child(3) > span {
+  font-size: 250%;
+  font-weight: 600;
 }
 
 .info, .calendar {
   width: 22px;
-  ;
 }
 
 .heart {
