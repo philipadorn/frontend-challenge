@@ -55,7 +55,7 @@ body {
 }
 
 .gps {
-  background-image: url(./../images/gps.png);
+  background-image: url(./../images/map.png);
   background-size: cover;
   background-position: 0 -35px;
   height: 325px;
